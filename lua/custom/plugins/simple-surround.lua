@@ -24,8 +24,8 @@ return {
       vim.defer_fn(function()
         -- Add custom keymaps for quick access
         vim.keymap.set("v", "<M-e>", "S", { desc = "Surround selection (press character)" })
-        vim.keymap.set("n", "<leader>ws", "ysiw", { desc = "Surround word" })
-        vim.keymap.set("n", "<leader>wl", "yss", { desc = "Surround line" })
+        -- vim.keymap.set("n", "<leader>ws", "ysiw", { desc = "Surround word" })
+        -- vim.keymap.set("n", "<leader>wl", "yss", { desc = "Surround line" })
         
         -- Quick surround shortcuts
         vim.keymap.set("v", "<leader>w(", function()
